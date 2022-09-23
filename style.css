@@ -1,3 +1,13 @@
+@keyframes lineAnimation-1 {
+    from {opacity: 0; top: 100%}
+    to {opacity: 1; top: 0}
+}
+
+@keyframes lineAnimation-2 {
+    from {opacity: 0; left: -600px}
+    to {opacity: 1; left: -315px}
+}
+
 body {
     font-family: 'intro-head-r-base', sans-serif;
     font-size: 20px;
@@ -70,6 +80,12 @@ header {
     background: #7E7E7E;
 }
 
+.btn-main:focus {
+    background-color: #505050;
+    border: none;
+    box-shadow: none;
+}
+
 .menu-tel {
     color: #ffffff;
 }
@@ -107,6 +123,9 @@ header {
     left: -315px;
     top: 90px;
     background: #ffffff;
+    animation-name: lineAnimation-2;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 
 .banner-content:before {
@@ -117,6 +136,9 @@ header {
     right: 140px;
     top: 0;
     background: #ffffff;
+    animation-name: lineAnimation-1;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 
 .title-1 {
@@ -357,12 +379,12 @@ header {
 }
 
 .catalog-card:hover .catalog-card-img:after {
-    transition: .3s;
+    transition: .5s;
     opacity: 1;
 }
 
 .catalog-card:hover .catalog-card-content {
-    transition: .3s;
+    transition: .5s;
     background: none;
     height: 100%;
 }
@@ -370,13 +392,13 @@ header {
 .catalog-card:hover .catalog-card-content .description {
     color: #ffffff;
     bottom: 209px;
-    transition: .3s;
+    transition: .5s;
 }
 
 .catalog-card:hover .catalog-card-content:after {
     bottom: 200px;
     background: #F0F0F0;
-    transition: .3s;
+    transition: .5s;
 }
 
 .catalog-card:hover .catalog-card-latent {
@@ -789,6 +811,89 @@ footer {
     transition: .3s;
 }
 
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-header {
+    position: relative;
+    justify-content: center;
+    background: #1E1E1E;
+    padding: 25px 0 17px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    color: #ffffff;
+}
+
+.modal-header:before {
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 50px;
+    width: 412px;
+    height: 90px;
+    background: url("svg/logo-modal.svg") no-repeat;
+    background-size: contain;
+}
+
+.modal-header .btn-close {
+    margin: 10px;
+    padding: 0;
+}
+
+.btn-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    color: #ffffff;
+    background: url("svg/close.svg");
+    background-size: contain;
+}
+
+.modal-body {
+    padding: 70px 70px 104px;
+}
+
+.deluxe-form {
+    margin-top: 30px;
+}
+
+.form-control {
+    margin-top: 20px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #7E7E7E;
+    border-radius: 0;
+    transition: .3s;
+}
+
+.form-control:focus {
+    border-bottom: 1px solid #000000;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: #C7C7C7;
+}
+
+.deluxe-form .btn-main {
+    margin: 50px auto;
+}
+
+.terms-block {
+    font-size: 16px;
+    text-align: center;
+}
+
+.terms-block a {
+    color: #000000;
+    border-bottom: 1px solid #000000;
+}
+
 
 @media (max-width: 1400px) {
 
@@ -1185,6 +1290,15 @@ footer {
     .footer-contacts {
         margin-left: 60px;
     }
+
+    .modal-body {
+        padding: 50px 38px 70px;
+    }
+
+    .modal-header:before {
+        width: 100%;
+        left: 10%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1266,6 +1380,11 @@ footer {
     .work-process:before {
         top: 118px;
     }
+
+    .modal-header:before {
+        width: 100%;
+        left: 0;
+    }
 }
 
 @media (max-width: 375px) {
@@ -1297,8 +1416,8 @@ footer {
 
 
 @font-face{
-    font-family: 'intro-head-r-base';
-    src: url("fonts/IntroHeadR-Base.otf") format("opentype");
-    font-style: normal;
-    font-weight: normal;
+font-family: 'intro-head-r-base';
+src: url("fonts/IntroHeadR-Base.otf") format("opentype");
+font-style: normal;
+font-weight: normal;
 }

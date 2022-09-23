@@ -48,7 +48,7 @@
                 <h3 class="title-3">красивый интерьер под поведенческий профиль
                     каждого члена семьи
                 </h3>
-                <a href="#" class="btn btn-primary btn-main">Узнать стоимость</a>
+                <a href="#" class="btn btn-primary btn-main" data-bs-toggle="modal" data-bs-target="#deluxeModal">Узнать стоимость</a>
             </div>
         </div>
     </div>
@@ -448,5 +448,30 @@
         </div>
     </div>
 </footer>
+
+<div class="modal fade" id="deluxeModal" tabindex="-1" aria-labelledby="deluxeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title title-2" id="deluxeModalLabel">заявка</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="description text-center">
+                    Оставьте ваши контактные данные, мы с вами свяжемся и обсудим все интересующие вас вопросы
+                </div>
+                <form class="deluxe-form">
+                    <input type="tel" class="form-control" id="deluxeFormTel" placeholder="Телефон">
+                    <input type="email" class="form-control" id="deluxeFormEmail" placeholder="E-mail">
+                    <a href="#" class="btn btn-primary btn-main">Отправить</a>
+                    <div class="terms-block">
+                        Нажимая на кнопку «Отправить» вы соглашаетесь с нашей
+                        <a href="#">политикой об обработке персональных данных</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

@@ -95,13 +95,13 @@ header {
     border-bottom: 1px solid #ffffff;
 }
 
-.banner-main {
+.promo-main {
     height: 1064px;
     display: flex;
     align-items: center;
 }
 
-.banner-item {
+.promo-item {
     width: 100%;
     position: absolute;
     top: 0;
@@ -110,12 +110,12 @@ header {
     overflow: hidden;
 }
 
-.banner-content {
+.promo-content {
     position: relative;
     color: #ffffff;
 }
 
-.banner-content:after {
+.promo-content:after {
     position: absolute;
     content: '';
     width: 1519px;
@@ -128,7 +128,7 @@ header {
     animation-timing-function: ease-out;
 }
 
-.banner-content:before {
+.promo-content:before {
     position: absolute;
     content: '';
     width: 1px;
@@ -169,7 +169,7 @@ header {
     text-transform: uppercase;
 }
 
-.banner-content .title-3 {
+.promo-content .title-3 {
     width: 694px;
     margin-top: 43px;
     margin-bottom: 23px;
@@ -897,7 +897,7 @@ footer {
 
 @media (max-width: 1400px) {
 
-    .banner-content:after {
+    .promo-content:after {
         width: 100%;
         left: 0;
     }
@@ -963,7 +963,7 @@ footer {
         margin-right: 10px;
     }
 
-    .banner-content:before {
+    .promo-content:before {
         right: 75px;
     }
 
@@ -1019,16 +1019,16 @@ footer {
 
 @media (max-width: 992px) {
 
-    .banner-main {
+    .promo-main {
         max-height: 896px;
     }
 
-    .banner-item {
+    .promo-item {
         max-height: 896px;
         display: flex;
     }
 
-    .banner-content .title-3 {
+    .promo-content .title-3 {
         margin-top: 0;
         width: 100%;
     }
@@ -1206,19 +1206,19 @@ footer {
 
 @media (max-width: 768px) {
 
-    .banner-content:before {
+    .promo-content:before {
         right: 0;
     }
 
-    .banner-content:after {
+    .promo-content:after {
         width: 105%;
     }
 
-    .banner-content .title-1 {
+    .promo-content .title-1 {
         width: 280px;
     }
 
-    .banner-content .title-3 {
+    .promo-content .title-3 {
         width: 300px;
         margin-top: 20px;
     }
@@ -1307,11 +1307,11 @@ footer {
         padding-left: 30px;
     }
 
-    .banner-content:after {
+    .promo-content:after {
         width: 100%;
     }
 
-    .banner-content:before {
+    .promo-content:before {
         right: 30px;
         top: 25px;
     }

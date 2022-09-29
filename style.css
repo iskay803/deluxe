@@ -894,6 +894,10 @@ footer {
     border-bottom: 1px solid #000000;
 }
 
+.fadeInUp {
+    animation: fadeInUp 2s;
+}
+
 
 @media (max-width: 1400px) {
 

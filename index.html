@@ -5,33 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>deluxe</title>
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="plugins/wow/animate.min.css">
     <link rel="stylesheet" href="style.css" />
     <link href="plugins/swiper/swiper-bundle.min.css" rel="stylesheet">
     <script src="plugins/swiper/swiper-bundle.min.js"></script>
     <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="plugins/wow/wow.min.js"></script>
     <script src="script.js" defer></script>
 </head>
 <body>
 <header class="header-block">
     <div class="container">
         <div class="main-menu">
-            <div class="menu-logo mb-2">
+            <div class="menu-logo mb-2 wow fadeInUp">
                 <img src="svg/logo.svg">
             </div>
-            <div class="d-none d-lg-block">
+            <div class="d-none d-lg-block wow fadeInUp">
                 <a href="#" class="menu-item">о студии</a>
                 <a href="#" class="menu-item">портфолио</a>
                 <a href="#" class="menu-item">услуги и цены</a>
                 <a href="#" class="menu-item">статьи</a>
                 <a href="#" class="menu-item">контакты</a>
             </div>
-            <div class="d-none d-lg-flex align-items-center">
+            <div class="d-none d-lg-flex align-items-center wow fadeInUp">
                 <a href="#" class="btn btn-primary btn-main">оставить заявку</a>
                 <div>
                     <a href="#" class="menu-tel ms-2 ms-xl-4">8(391)250-06-08</a>
                 </div>
             </div>
-            <div class="burger d-lg-none">
+            <div class="burger d-lg-none wow fadeInUp">
                 <img src="svg/burger.svg">
             </div>
         </div>
@@ -44,11 +46,11 @@
         </div>
         <div class="container">
             <div class="promo-content">
-                <h1 class="title-1">Эрогономичный дизайн интерьера</h1>
-                <h3 class="title-3">красивый интерьер под поведенческий профиль
+                <h1 class="title-1 wow fadeInUp">Эрогономичный дизайн интерьера</h1>
+                <h3 class="title-3 wow fadeInUp">красивый интерьер под поведенческий профиль
                     каждого члена семьи
                 </h3>
-                <a href="#" class="btn btn-primary btn-main" data-bs-toggle="modal" data-bs-target="#deluxeModal">Узнать стоимость</a>
+                <a href="#" class="btn btn-primary btn-main wow fadeInUp" data-bs-toggle="modal" data-bs-target="#deluxeModal">Узнать стоимость</a>
             </div>
         </div>
     </div>
@@ -56,11 +58,13 @@
         <div class="container">
             <div class="info-block-content">
                 <div class="description">
-                    <span class="text-uppercase">Студия дизайна интерьеров DeLuxe</span> —
-                    это профессиональный взгляд на интерьер, умноженный на опыт и умение слышать заказчика.
-                    Вот уже 10 лет мы успешно работаем с нашими клиентами и предлагаем комплексный подход к
-                    созданию интерьера:
-                    <ul class="mt-4">
+                    <div class="wow fadeInUp">
+                        <span class="text-uppercase">Студия дизайна интерьеров DeLuxe</span> —
+                        это профессиональный взгляд на интерьер, умноженный на опыт и умение слышать заказчика.
+                        Вот уже 10 лет мы успешно работаем с нашими клиентами и предлагаем комплексный подход к
+                        созданию интерьера:
+                    </div>
+                    <ul class="mt-4 wow fadeInUp">
                         <li>
                             разработка дизайн-проекта;
                         </li>
@@ -77,11 +81,11 @@
                             грамотный авторский надзор, позволяющий воплотить все дизайнерские решения в точном соответствии с проектом.
                         </li>
                     </ul>
-                    <div class="info-block-btn">
+                    <div class="info-block-btn wow fadeInUp">
                         <a href="#" class="btn btn-primary btn-main">бесплатная консультация</a>
                     </div>
                 </div>
-                <div class="text-center text-xl-start">
+                <div class="text-center text-xl-start wow fadeInUp">
                     <iframe class="info-block-video" width="616" height="345" src="https://www.youtube.com/embed/4kfHtwCKx0o"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -93,30 +97,30 @@
     </div>
     <div class="our-success">
         <div class="container">
-            <div class="our-success-block">
+            <div class="our-success-block wow fadeInUp">
                 <div class="row">
                     <div class="d-none d-lg-block col-2"></div>
                     <div class="col-6 col-sm-3 col-lg-2 text-end text-sm-center">
                         <div class="our-success-item">
-                            <div class="count">+15</div>
+                            <div class="count">+<span class="my-counter">15</span></div>
                             <div class="text-uppercase">РЕГИОНОВ<br>РАБОТЫ</div>
                         </div>
                     </div>
                     <div class="col-6 col-sm-3 col-lg-2 text-end text-sm-center">
                         <div class="our-success-item">
-                            <div class="count">+10</div>
+                            <div class="count">+<span class="my-counter">10</span></div>
                             <div class="text-uppercase">ЛЕТ<br>ОПЫТА</div>
                         </div>
                     </div>
                     <div class="col-6 col-sm-3 col-lg-2 text-end text-sm-center">
                         <div class="our-success-item">
-                            <div class="count">+15</div>
+                            <div class="count">+<span class="my-counter">15</span></div>
                             <div class="text-uppercase">ПУБЛИКАЦИЙ<br>В ПРЕССЕ И ТВ</div>
                         </div>
                     </div>
                     <div class="col-6 col-sm-3 col-lg-2 text-end text-sm-center">
                         <div class="our-success-item">
-                            <div class="count">+100</div>
+                            <div class="count">+<span class="my-counter">100</span></div>
                             <div class="text-uppercase">РЕАЛИЗОВАННЫХ<br>ОБЪЕКТОВ</div>
                         </div>
                     </div>
@@ -128,7 +132,7 @@
     <div class="we-projects">
         <div class="container">
             <div class="we-projects-block">
-                <div class="we-projects-text">
+                <div class="we-projects-text wow fadeInUp">
                     <h2 class="title-2 indent">
                         мы проектируем
                     </h2>
@@ -139,7 +143,7 @@
                         но и Ваших гостей.
                     </div>
                 </div>
-                <div class="we-projects-wrapper mt-md-5">
+                <div class="we-projects-wrapper mt-md-5 wow fadeInUp">
                     <div class="we-projects-item">
                         <a href="#" class="major-link">Интерьеры<br>квартир,<br>комнат</a>
                     </div>
@@ -156,13 +160,13 @@
     <div class="catalog">
         <div class="container">
             <div class="d-flex justify-content-between">
-                <h2 class="title-2 indent">
+                <h2 class="title-2 indent wow fadeInUp">
                     проекты
                 </h2>
-                <a href="#" class="btn btn-primary btn-main d-none d-lg-flex">все проекты</a>
+                <a href="#" class="btn btn-primary btn-main d-none d-lg-flex wow fadeInUp">все проекты</a>
             </div>
             <div class="catalog-wrapper">
-                <a href="#" class="catalog-card">
+                <a href="#" class="catalog-card wow fadeInUp">
                     <div class="catalog-card-front">
                         <div class="catalog-card-img">
                             <img src="img/img-1.jpeg">
@@ -178,7 +182,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="#" class="catalog-card">
+                <a href="#" class="catalog-card wow fadeInUp">
                     <div class="catalog-card-front">
                         <div class="catalog-card-img">
                             <img src="img/img-2.jpeg">
@@ -195,7 +199,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="#" class="catalog-card">
+                <a href="#" class="catalog-card wow fadeInUp">
                     <div class="catalog-card-front">
                         <div class="catalog-card-img">
                             <img src="img/img-3.jpeg">
@@ -212,7 +216,7 @@
                     </div>
                 </a>
 
-                <a href="#" class="catalog-card">
+                <a href="#" class="catalog-card wow fadeInUp">
                     <div class="catalog-card-front">
                         <div class="catalog-card-img">
                             <img src="img/img-3.jpeg">
@@ -228,7 +232,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="#" class="catalog-card">
+                <a href="#" class="catalog-card wow fadeInUp">
                     <div class="catalog-card-front">
                         <div class="catalog-card-img">
                             <img src="img/img-3.jpeg">
@@ -244,7 +248,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="#" class="catalog-card">
+                <a href="#" class="catalog-card wow fadeInUp">
                     <div class="catalog-card-front">
                         <div class="catalog-card-img">
                             <img src="img/img-3.jpeg">
@@ -261,16 +265,16 @@
                     </div>
                 </a>
             </div>
-            <div class="d-lg-none mt-4 d-flex justify-content-end justify-content-md-center">
+            <div class="d-lg-none mt-4 d-flex justify-content-end justify-content-md-center wow fadeInUp">
                 <a href="#" class="btn btn-primary btn-main">все проекты</a>
             </div>
             <div class="catalog-description">
-                <div class="text-lg-center">
+                <div class="text-lg-center wow fadeInUp">
                     Мы не только создаем дизайн, но и воплощаем проекты в жизнь! Благодаря долговременным
                     партнерским отношениям с ведущими фабриками Италии, мы готовы осуществить индивидуальный
                     подход в реализации любого проекта.
                 </div>
-                <div class="text-lg-center mt-4">
+                <div class="text-lg-center mt-4 wow fadeInUp">
                     Мы создадим эксклюзивный дизайн интерьера для квартиры или загородного дома, который каждым
                     своим элементом воплотит в себе сочетание изысканности и комфорта!
                 </div>
@@ -279,9 +283,9 @@
     </div>
     <div class="price-block">
         <div class="container">
-            <h2 class="title-2 indent">услуги и цены</h2>
+            <h2 class="title-2 indent wow fadeInUp">услуги и цены</h2>
             <div class="price-wrapper">
-                <div class="price-item">
+                <div class="price-item wow fadeInUp">
                     <div class="price-title">ДИЗАЙН-ПРОЕКТ</div>
                     <div class="price-description mt-4">
                         Дизайн проект интерьера представляет собой комплексное решение по организации
@@ -294,7 +298,7 @@
                         от 4 000руб/ м²
                     </div>
                 </div>
-                <div class="price-item large">
+                <div class="price-item large wow fadeInUp">
                     <div class="price-title">ПЛАНИРОВОЧНЫЕ РЕШЕНИЯ</div>
                     <div class="price-description mt-4">
                         Услуга перепланировки предполагает разработку трех вариантов расположения мебели и
@@ -307,7 +311,7 @@
                         от 4 000руб/ м²
                     </div>
                 </div>
-                <div class="price-item">
+                <div class="price-item wow fadeInUp">
                     <div class="price-title">АВТОРСКИЙ НАДЗОР</div>
                     <div class="price-description mt-4">
                         Авторский надзор представляет собой контроль автора проекта за его реализацией.
@@ -325,14 +329,14 @@
     <div class="choose-us">
         <div class="container">
             <div class="choose-us-wrapper">
-                <h2 class="title-2 indent">ПОЧЕМУ ВЫБИРАЮТ НАС?</h2>
+                <h2 class="title-2 indent wow fadeInUp">ПОЧЕМУ ВЫБИРАЮТ НАС?</h2>
                 <div class="description">
-                    <div>
+                    <div class="wow fadeInUp">
                         Это экономит ваше время. Вы можете заниматься своими делами, работать, просвящать
                         свое время себе, а дизайнеры и строители возьмут на себя обязанности по разработке
                         дизайн-проекта и ремонту.
                     </div>
-                    <div class="mt-3">
+                    <div class="mt-3 wow fadeInUp">
                         При ремонтных работах вы потратите одну и ту же сумму на строительные материалы,
                         делая ремонт с сопровождением дизайн-студии или без, но дизайнер поможет грамотно
                         расположить мебель, сделать перепланировку, спроектировать, подобрать сочетания
@@ -346,8 +350,8 @@
     </div>
     <div class="work-process">
         <div class="container">
-            <h2 class="title-2 indent">Процесс работы</h2>
-            <div class="process-slider swiper">
+            <h2 class="title-2 indent wow fadeInUp">Процесс работы</h2>
+            <div class="process-slider swiper wow fadeInUp">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="process-step">
@@ -410,7 +414,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn btn-primary btn-main">бесплатная консультация</a>
+            <a href="#" class="btn btn-primary btn-main wow fadeInUp">бесплатная консультация</a>
         </div>
     </div>
 </main>
@@ -418,31 +422,31 @@
     <div class="container">
         <div class="footer-wrapper">
             <div class="">
-                <h2 class="title-2 indent">КОНТАКТЫ</h2>
+                <h2 class="title-2 indent wow fadeInUp">КОНТАКТЫ</h2>
                 <div class="footer-block">
                     <div class="footer-content">
                         <div class="d-block d-sm-flex">
-                            <div class="footer-item">
+                            <div class="footer-item wow fadeInUp">
                                 АДРЕС:<br>
                                 ул. Весны, 34
                             </div>
-                            <div class="footer-item mt-4 mt-sm-0">
+                            <div class="footer-item mt-4 mt-sm-0 wow fadeInUp">
                                 ЧАСЫ РАБОТЫ:<br>
                                 пн-пт 10-19, сб-вс
                             </div>
                         </div>
-                        <div class="footer-item mt-4">
+                        <div class="footer-item mt-4 wow fadeInUp">
                             ПОЧТА:<br>
                             <a href="#">dl-ds@mail.ru</a>
                         </div>
                     </div>
-                    <div class="footer-contacts">
+                    <div class="footer-contacts wow fadeInUp">
                         <a href="#" class="footer-tel">8(391)250-06-08</a>
                         <a href="#" class="btn btn-primary btn-main">оставить заявку</a>
                     </div>
                 </div>
             </div>
-            <div class="footer-logo">
+            <div class="footer-logo wow fadeInUp">
                 <img src="svg/logo.svg">
             </div>
         </div>

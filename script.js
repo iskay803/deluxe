@@ -8,6 +8,15 @@ var swiper = new Swiper(".process-slider", {
     }
 });
 
+var swiper = new Swiper(".gallery-swiper", {
+    slidesPerView: 2,
+    spaceBetween: 30,
+    slidesPerGroup: 1,
+    navigation: {
+        nextEl: ".swiper-button-next",
+    },
+});
+
 new WOW().init();
 
 addEventListener('scroll', (event) => {

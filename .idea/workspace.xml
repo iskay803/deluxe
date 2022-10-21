@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3461d48e-c7c6-4496-b31f-7782c00f3a61" name="Changes" comment="animation">
-      <change afterPath="$PROJECT_DIR$/article-video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+    <list default="true" id="3461d48e-c7c6-4496-b31f-7782c00f3a61" name="Changes" comment="portfolio, article, contacts pages">
+      <change afterPath="$PROJECT_DIR$/mobile-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/jquery-3.6.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article-video.html" beforeDir="false" afterPath="$PROJECT_DIR$/article-video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -56,7 +60,8 @@
       <workItem from="1664008795880" duration="1094000" />
       <workItem from="1664480674912" duration="234000" />
       <workItem from="1664480939307" duration="3419000" />
-      <workItem from="1665389697043" duration="29347000" />
+      <workItem from="1665389697043" duration="30015000" />
+      <workItem from="1666343390498" duration="5730000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1663879733723</created>
@@ -93,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664483762184</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="portfolio, article, contacts pages">
+      <created>1665514434582</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665514434582</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +127,7 @@
     <MESSAGE value="animation, modal" />
     <MESSAGE value="fixes" />
     <MESSAGE value="animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="animation" />
+    <MESSAGE value="portfolio, article, contacts pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="portfolio, article, contacts pages" />
   </component>
 </project>

@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="plugins/wow/animate.min.css">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile-menu.css" />
     <link href="plugins/swiper/swiper-bundle.min.css" rel="stylesheet">
     <script src="plugins/swiper/swiper-bundle.min.js"></script>
     <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="plugins/wow/wow.min.js"></script>
+    <script src="plugins/jquery-3.6.1.min.js"></script>
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -36,6 +38,38 @@
             <div class="burger d-lg-none wow fadeInUp">
                 <img src="svg/burger.svg">
             </div>
+        </div>
+    </div>
+    <div class="mobile-menu">
+        <div class="d-flex justify-content-between justify-content-sm-end">
+            <div class="menu-logo d-sm-none wow fadeInUp">
+                <img src="svg/logo.svg">
+            </div>
+            <div class="mobile-close wow fadeInUp">
+                <img src="svg/close.svg">
+            </div>
+        </div>
+        <ul class="mobile-list">
+            <li>
+                <a href="#" class="menu-item wow fadeInUp">о студии</a>
+            </li>
+            <li>
+                <a href="#" class="menu-item wow fadeInUp">портфолио</a>
+            </li>
+            <li>
+                <a href="#" class="menu-item wow fadeInUp">услуги и цены</a>
+            </li>
+            <li>
+                <a href="#" class="menu-item wow fadeInUp">статьи</a>
+            </li>
+            <li>
+                <a href="#" class="menu-item wow fadeInUp">контакты</a>
+            </li>
+        </ul>
+        <div class="mobile-line"></div>
+        <a href="#" class="btn btn-primary btn-main wow fadeInUp">оставить заявку</a>
+        <div class="mt-3">
+            <a href="#" class="menu-tel wow fadeInUp">8(391)250-06-08</a>
         </div>
     </div>
 </header>

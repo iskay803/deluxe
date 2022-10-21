@@ -1,3 +1,25 @@
+$(function () {
+
+    $('.burger').click(function () {
+        $('.mobile-menu').fadeIn();
+    });
+    $('.mobile-close').click(function () {
+        $('.mobile-menu').fadeOut();
+    });
+
+    $('body').click(function (e) {
+        const element = $(e.target);
+        if (element.parents('.mobile-menu, .burger').length !== 0) {
+            return;
+        }
+        if (element.is('.mobile-menu, .burger')) {
+            return;
+        }
+        $('.mobile-menu').fadeOut();
+    });
+
+})
+
 var swiper = new Swiper(".process-slider", {
     slidesPerView: "auto",
     spaceBetween: 63,

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3461d48e-c7c6-4496-b31f-7782c00f3a61" name="Changes" comment="mobile menu">
+    <list default="true" id="3461d48e-c7c6-4496-b31f-7782c00f3a61" name="Changes" comment="fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +56,8 @@
       <workItem from="1664480939307" duration="3419000" />
       <workItem from="1665389697043" duration="30015000" />
       <workItem from="1666343390498" duration="8546000" />
-      <workItem from="1668603796458" duration="622000" />
+      <workItem from="1668603796458" duration="949000" />
+      <workItem from="1668675325813" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1663879733723</created>
@@ -105,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666357589036</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fixes">
+      <created>1668604580715</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668604580715</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,10 +135,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="animation, modal" />
-    <MESSAGE value="fixes" />
     <MESSAGE value="animation" />
     <MESSAGE value="portfolio, article, contacts pages" />
     <MESSAGE value="mobile menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobile menu" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
 </project>
